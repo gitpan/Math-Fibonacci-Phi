@@ -13,8 +13,7 @@ our @EXPORT_OK = @{ $EXPORT_TAGS{'all'} } ;
 my $max_prec = 14;
 our $Precision = 0;
 our $TrailingZeros = 0;
-our $VERSION = '0.01';
-sub VERSION { $VERSION; }
+our $VERSION = '0.02';
 
 sub Phi {
    my $fn = Math::Fibonacci::isfibonacci(shift());
